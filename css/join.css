@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+input[type=radio], input[type=checkbox], button, label { cursor:pointer;}
+
+#joinsection { padding:106px }
+#joinsection .inner h2 { 
+  text-align: center;
+  color:#282866; 
+  font-size: 35px; 
+  margin: 30px 0 70px;
+}
+#joinsection .jointext,
+#joinsection .nametext {
+  text-align: center;
+  margin:20px 0 20px;
+}
+#joinsection .one p+p,
+#joinsection .three { margin-right:105px; }
+#joinsection .jointext input,
+#joinsection .nametext input {
+  width:350px; height:45px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border:none;
+  background: #eee;
+}
+#joinsection .idcheck {
+  width:100px; height:40px;
+  background: #282866;
+  border-radius: 5px;
+  color:#fff;
+}
+#joinsection .pass {
+  margin-right: 13px;
+}
+#joinsection .passok {
+  margin-right: 47px;
+}
+#joinsection .spbg {
+  background-image: url(../images/spimg.png);
+  background-repeat: no-repeat;
+  display: inline-block
+}
+#joinsection .two { text-align: center; }
+#joinsection .two h3 {
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+#joinsection .two > div { 
+  margin: 40px 165px 20px 0px;
+}
+#joinsection .two input { 
+  display:none; 
+}
+#joinsection .two label { display:inline-block; }
+#joinsection .two label:last-child {
+  margin-left:15px;
+}
+#joinsection .two label span {
+  width:18px; height: 18px;
+  background-position: -2px -2px;
+  vertical-align: top;
+  margin-right:5px;
+}
+#joinsection .two input:checked+label > span {
+  width:18px; height: 18px;
+  background-position: -22px -2px;
+  vertical-align: top;
+  margin-right:5px;
+}
+#joinsection .nametext {
+  margin-left: 25px;
+}
+#joinsection .pic {
+  text-align: center;
+}
+#joinsection .pic input {
+  margin-right:160px
+}
+#joinsection .email {
+  text-align: center;
+  padding: 15px;
+  margin-left: 45px;
+}
+#joinsection .email input {
+  padding:10px;
+}
+#joinsection .email select {
+  padding:10px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+#joinsection .choice input { 
+  display:none; 
+}
+#joinsection .choice label { 
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+}
+#joinsection .choice label:last-child {
+  margin:5px 0  0px 84px;
+}
+#joinsection .choice label span {
+  width:18px; height: 18px;
+  background-position: -23px -27px;
+  vertical-align: top;
+  margin-right:5px;
+}
+#joinsection .choice input:checked+label > span {
+  width:18px; height: 18px;
+  background-position: -2px -27px;
+  vertical-align: top;
+  margin-right:5px;
+}
+#joinsection .btn {
+  text-align: center;
+}
+#joinsection .btn button {
+  width:200px; height: 50px;
+  background: #282866;
+  border-radius: 5px;
+  color:#fff;
+  margin:70px 0px 70px 35px;
+}

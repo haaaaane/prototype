@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준 퍼블리싱</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <!--[if It IE9]>
+        <script src="./js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header id="header">
+    <div class="inner cf">
+        <h1><a href="./index.html"><img src="./images/logo.png" alt=""></a></h1>
+        <div class="membership">
+            <a href="./login.html">로그인</a>
+            <a href="./join.html">회원가입</a>
+        </div>
+        <nav id="nav">
+            <ul class="depth1 cf">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">블로그</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(기변형)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제품소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(확대)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">갤러리</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(가변형)</a></li>
+                        <li><a href="#">슬라이드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="joinsection">
+    <div class="inner">
+        <h2>회원가입</h2>
+        <form action="#" method="post">
+            <div class="one">
+                <P class="jointext">
+                    <label>아이디</label>
+                    <input type="text" class="idname" placeholder="3~15자의 영문, 숫자" autocomplete="off">
+                    <button type="button" class="idcheck">중복확인</button>
+                </P>
+                <P class="jointext">
+                    <label>비밀번호</label>
+                    <input type="password" class="pass" placeholder="8~12자 영문, 숫자, 특수문자" autocomplete="off">
+                </p>
+                <p class="jointext">
+                    <label>비밀번호 확인</label>
+                    <input type="password" class="passok" placeholder="비밀번호 다시 입력" autocomplete="off">
+                </p>
+            </div>
+            <div class="two">
+                <div class="textarea">
+                    <h3>개인정보 유효기간</h3>
+                    <textarea name="" id="" cols="50" rows="10">개인정보 유효기간 관련 안내사항                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim excepturi non facere temporibus velit. Eius accusamus ipsum autem voluptatibus adipisci quam, recusandae quaerat dicta impedit expedita. Reprehenderit, corrupti possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate ipsa asperiores magni iusto, itaque nesciunt exercitationem, illo quas amet ex sit perferendis sequi possimus veniam repellendus, repellat similique doloremque?Magni, officiis odit. Repellat laboriosam ut cupiditate facere eveniet hic beatae fuga accusantium vel! Esse eum, inventore veritatis qui tempore quia ex vel necessitatibus! Laboriosam ea rerum aperiam magni soluta?
+                    </textarea>
+                </div>
+                    <input type="radio" name="day" id="zero" checked><label for="zero"><span class="spbg"></span>탈퇴시까지</label>
+                    <input type="radio" name="day" id="year"><label for="year"><span class="spbg"></span>1년</label>
+            </div>
+            <div class="three">
+                <P class="nametext">
+                    <label>이름</label>
+                    <input type="text" class="realname" autocomplete="off">
+                </P>
+                <p class="pic">
+                    <label>프로필 사진 설정 : </label>
+                    <input type="file">
+                </p>
+                <P class="email">
+                    이메일 : <input type="text"> @ <label for="domain"></label>
+                    <select name="edomain" id="edomain">
+                        <option value="naver.com">naver.com</option>
+                        <option value="daum.net">daum.net</option>
+                        <option value="nate.net">nate.net</option>
+                        <option value="gmail.com">gmail.com</option>
+                    </select>
+                </p>
+                <p class="choice">
+                    <input type="checkbox"  id="receive">
+                    <label for="receive"><span class="spbg"></span>이메일로 상품 및 이벤트 정보를 받겠습니다.(선택)</label>
+                    <input type="checkbox"  id="phon">
+                    <label for="phon"><span class="spbg"></span>SMS로 상품 및 이벤트 정보를 받겠습니다.(선택)</label>
+                </p>
+            </div>
+            <div class="btn">
+                <button type="submit">가입하기</button>
+                <button type="reset">취소</button>
+            </div>
+        </form>
+        
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="sns">
+            <a href="#"><span class="blind">페이스북</span><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><span class="blind">트위터</span><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><span class="blind">인스타그램</span><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><span class="blind">유튜브</span><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="contact">
+            <a href="tel:02-111-1111">전화번호 : (02) 111-1111</a>
+            <a href="mailto:gallerypiece@cafe24.com">이메일 주소 : gallerypiece@cafe24.com<a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

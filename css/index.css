@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* section 영역 
+    article1 영역 */
+#section article h2 {
+    font-size: 30px; color:#282866;
+    text-align: center; margin-bottom: 30px;
+}
+#section .article1 {
+    padding-top: 106px;
+    background: #eef5fc;
+}
+/* 헤더에서 제일 높은 높이인 h1의 높이만큼 패딩값 입력 */
+#section .article1 .inner {
+    background:url(../images/mainbanner.png) no-repeat ;
+    background-size: 500px auto;
+    background-position: left 50px;
+    overflow:hidden; 
+    padding-top: 62px;
+}
+/* inner 밖으로 넘쳐나는 자식이 없을 때 hidden으로 해줘도 된다 
+    solgun의 width값은 텍스트 상자의 크기*/
+#section .article1 .inner .slogun {
+    width:50%; float:right;
+    padding-bottom: 245px;
+    word-break: keep-all;
+    line-height: 1.5;
+}
+#section .article1 .inner .slogun h2 {
+    font-size: 29px; color:#2e2e2e;
+    margin-bottom:40px ;
+}
+#section .article1 .inner .slogun p {
+    font-size: 18px; color:#505050;
+}
+
+/* article2 영역 */
+#section .article2 { padding: 50px 0;}
+#section .article2 .design {
+    overflow: hidden; text-align: center;
+}
+#section .article2 li { float:left; width:25%;
+    padding: 0 10px; }
+#section .article2 li .icon { 
+    font-size: 50px; margin-bottom: 20px;
+    color:#282866;
+}
+/* !! 아이콘의 크기는 font-size 로 조절 */
+#section .article2 li h3 {
+    font-size: 19px; color:#282866;
+}
+#section .article2 li p {
+    font-size: 14px; color:#7a7a7a;
+    padding:14px 0;
+    line-height: 1.5;
+}
+/* section3 구역*/
+#section .article3 { padding:50px 0 }
+#section .article3 .hlayout { overflow: hidden }
+#section .article3 li { 
+    float:left; width:33.33%;
+    padding:0 10px; text-align: center;
+}
+#section .article3 li > div { overflow:hidden }
+#section .article3 li > div:hover img {
+    transform:scale(1.2)
+}
+#section .article3 li  div img { transition: all 0.5s; }
+#section .article3 li h3 {
+    font-size: 18px; color: #2e2e2e;
+    margin-top: 20px;
+}
+
+/* section4 구역*/
+#section .article4 {
+    padding:240px 0;
+    background: url(../images/videobanner.png);
+    background-size: cover;
+    background-position: center;
+}
+/* height로 높이를 주면 높이가 고정되고 컨텐츠가 위로 올라간다 padding 상하여백으로 해결 
+    background-position: center; 사이트 창을 축소햇을 때 이미지 중심이 센터로
+*/
+#section .article4 .icon {
+    color:#fff; font-size:30px;
+    width:100px; height:100px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    text-align: center; 
+    line-height: 85px;
+    margin:0 auto;
+}
+/* 높이가 있는 박스 안에 아이콘을 가운데로 정렬하고 싶을 때는 line-heigh 로 크기를 준다*/
+
+/* article5 구역 */
+#section .article5 {
+    padding:50px 0;
+}
+#section .article5 .blayout { overflow: hidden; }
+#section .article5 li {
+    float: left; width:33.33%;
+    text-align: center;
+    padding:0 10px;
+}
+#section .article5 li h3 {
+    font-size: 18px; color: #2e2e2e;
+    margin-top: 20px;
+}
+
+/* article6 구역 */
+#section .article6 {
+    background: #eef5fc;
+}
+#section .article6 .text {
+    width:50%
+}
+/* 왼쪽에 있는 텍스트는 원래 위치가 왼쪽이기 때문에 float을 따로 주지 않아도 된다 박스였다면 줘야 한다*/
+#section .article6 .text h2 {
+    font-size: 36px; color:#2e2e2e;
+    margin-bottom: 40px; text-align: left;
+}
+#section .article6 .inner {
+    background: url(../images/subbanner.png) no-repeat;
+    background-position: right center;
+    background-size: 600px auto;
+    padding: 130px 0;
+}
+/* 이미지가 짤리기 때문에 article6에 있던 패딩값을 inner로 넣어준다 
+    background-position 의 기본은 left top 이기 때문에 right로 수정*/
+#section .article6 .text p {
+    font-size: 16px; color:#505050;
+    word-break: keep-all;
+    line-height: 1.5;
+}
+/* 맨 위에 inner에 준 스타일이 적용되었기 때문에 따로 적용 */
+

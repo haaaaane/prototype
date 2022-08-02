@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#loginsection { padding:106px }
+#loginsection .inner h2 { 
+  text-align: center;
+  color:#282866; 
+  font-size: 35px; 
+  margin: 30px 0 50px;
+}
+fieldset { border:none }
+#loginsection .inner  { 
+  display: block;
+  padding:0 0 10px;
+  text-align: center;
+}
+#loginsection .text {
+  display: block;
+  margin-top: 20px;
+}
+#loginsection .text input {
+  width:350px; height:45px;
+  padding-left: 10px;
+}
+#loginsection .userid:focus,
+#loginsection .userpw:focus {
+  border:1px solid #282866;
+}
+#loginsection .snslog a {
+  width:350px; height:50px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  background-repeat: no-repeat;
+  padding-top: 12px;
+  color:#fff;
+  font-weight: bold;
+}
+#loginsection .snslog .naverin {
+  background-image: url(../images/icon_naver.png); 
+  background-color: #00c300;
+}
+#loginsection .snslog .kakaoin {
+  background-image: url(../images/icon_kakao.png);
+  background-color: #ffea26;
+}
+#loginsection .snslog .facein {
+  background-image: url(../images/icon_face.png);
+  background-color: #405ea9;
+}
+#loginsection .inner button {
+  background: #282866;
+  width:350px; height:70px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  border:none;
+  margin: 30px 0 46px;
+}
